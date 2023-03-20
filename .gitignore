@@ -1,3 +1,4 @@
 data
 wandb
 .env
+models

@@ -1,0 +1,8 @@
+data:
+  train_path: data/pog-sleep-data/train.csv
+  test_path: data/pog-sleep-data/test.csv
+train:
+  train_adjusted_path: data/pog-sleep-data/train_dt_fixed.parquet
+  metrics_path: reports/metrics.json
+  arima_model_path: models/arima_model.pkl
+  sub_name: arima_baseline.csv

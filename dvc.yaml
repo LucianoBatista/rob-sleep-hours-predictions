@@ -1,0 +1,17 @@
+stages:
+  data_prep:
+    cmd: python src/data_prep/prep.py
+    deps:
+      - src/data_prep/prep.py
+    params:
+      - data.train_path
+  train:
+    cmd: python src/training/train.py
+    deps:
+      - src/training/train.py
+    params:
+      - data.test_path
+      - train.train_adjusted_path
+      - train.metrics_path
+      - train.arima_model_path
+      - train.sub_name

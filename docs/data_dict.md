@@ -7,3 +7,9 @@
 - Improve the EDA with some visualizations por periods
 - Look at the ACF and PACF plots
 - Exogeneous variables for week number
+
+# Stages
+
+- Data prep
+- Data training
+- Data validation
