@@ -16,6 +16,7 @@ tqdm = "==4.64.1"
 numpy = "==1.24.2"
 matplotlib = "==3.6.3"
 lets-plot = "==3.1.0"
+wandb = "==0.14.0"
 
 [dev-packages]
 ipykernel = "*"
