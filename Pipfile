@@ -20,6 +20,7 @@ wandb = "==0.14.0"
 fastai = "==2.7.11"
 pmdarima = "==2.0.3"
 statsmodels = "==0.13.5"
+dvc = {version = "==2.51.0", extras = ["gdrive"]}
 
 [dev-packages]
 ipykernel = "*"
