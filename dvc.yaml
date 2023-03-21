@@ -15,3 +15,5 @@ stages:
       - train.metrics_path
       - train.arima_model_path
       - train.sub_name
+    metrics:
+      - reports/metrics.json

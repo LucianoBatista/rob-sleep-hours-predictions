@@ -5,4 +5,7 @@ train:
   train_adjusted_path: data/pog-sleep-data/train_dt_fixed.parquet
   metrics_path: reports/metrics.json
   arima_model_path: models/arima_model.pkl
-  sub_name: arima_baseline.csv
+  sub_name: arima_baseline
+  arima_n_fits: 10
+  arima_maxiter: 100
+  arima_m: 12

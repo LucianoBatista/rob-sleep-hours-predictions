@@ -13,12 +13,16 @@ stages:
     cmd: python src/training/train.py
     deps:
     - path: src/training/train.py
-      md5: eebcd4417f8ef64340fb22a79830a32c
-      size: 3736
+      md5: f1de99a1e67875ef54b6de6eca7be5ac
+      size: 6022
     params:
       params.yaml:
         data.test_path: data/pog-sleep-data/test.csv
         train.arima_model_path: models/arima_model.pkl
         train.metrics_path: reports/metrics.json
-        train.sub_name: arima_baseline.csv
+        train.sub_name: arima_baseline
         train.train_adjusted_path: data/pog-sleep-data/train_dt_fixed.parquet
+    outs:
+    - path: reports/metrics.json
+      md5: 48873fa1e053b11e5d921bfc28bd8c98
+      size: 29
